@@ -1,0 +1,120 @@
+[{
+  "_id": {
+    "$oid": "67ce60c1f5bedd4266f9b86d"
+  },
+  "name": "Teclado Mecánico RGB",
+  "description": "Teclado con luces RGB mecanico",
+  "brand": "Logitech",
+  "price": 55,
+  "stock": 20,
+  "category": {
+    "$oid": "67ce5fcef5bedd4266f9b867"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-10T03:47:13.679Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-12T15:53:36.525Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce6190f5bedd4266f9b871"
+  },
+  "name": "Camiseta",
+  "description": "camiseta gucci azul con rojo",
+  "brand": "Gucci",
+  "price": 45,
+  "stock": 15,
+  "category": {
+    "$oid": "67ce5c94a9251a373ca41865"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-10T03:50:40.212Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T04:49:21.224Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce61e6f5bedd4266f9b875"
+  },
+  "name": "Starwars set",
+  "description": "set 2000 piezas no10",
+  "brand": "Lego",
+  "price": 20,
+  "stock": 5,
+  "category": {
+    "$oid": "67ce5c7ea9251a373ca41861"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-10T03:52:06.695Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T03:59:31.364Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce6280f5bedd4266f9b87f"
+  },
+  "name": "Minecraft set",
+  "description": "set 600 piezas no50",
+  "brand": "Lego",
+  "price": 25,
+  "stock": 3,
+  "category": {
+    "$oid": "67ce5c7ea9251a373ca41861"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-10T03:54:40.824Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-12T16:01:58.822Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce660d9b8a468cf74c7b94"
+  },
+  "name": "Mando",
+  "description": "mando dualsense blanco",
+  "brand": "PlayStation",
+  "price": 25,
+  "stock": 0,
+  "category": {
+    "$oid": "67ce5fcef5bedd4266f9b867"
+  },
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-10T04:09:49.200Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-12T15:53:36.525Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d1ab6dd467bb9ca45816b8"
+  },
+  "name": "Mazda",
+  "description": "Carro modelo 2025",
+  "brand": "Mazda",
+  "price": 100,
+  "stock": 5,
+  "category": {
+    "$oid": "67d1ab10d467bb9ca45816b4"
+  },
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-12T15:42:37.767Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-12T15:46:54.355Z"
+  }
+}]

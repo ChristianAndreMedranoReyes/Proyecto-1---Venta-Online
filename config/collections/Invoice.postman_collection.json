@@ -1,0 +1,110 @@
+{
+	"info": {
+		"_postman_id": "e60ea68d-4579-4f8d-bab5-0fd01725ee6d",
+		"name": "Invoice",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42553440"
+	},
+	"item": [
+		{
+			"name": "createInv",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2QxYWZiZmQ0NjdiYjljYTQ1ODE3MGMiLCJpYXQiOjE3NDE3OTUyNzMsImV4cCI6MTc0MTgxMzI3M30.N18CmlUm5MMsLK1f1yGDS9WhWF9SmX3dGk2l1THzzWQ",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/invoice",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"invoice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getInv",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2QxYWZiZmQ0NjdiYjljYTQ1ODE3MGMiLCJpYXQiOjE3NDE3OTUyNzMsImV4cCI6MTc0MTgxMzI3M30.N18CmlUm5MMsLK1f1yGDS9WhWF9SmX3dGk2l1THzzWQ",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/invoice",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"invoice"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "editInv",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2NlNDI0OTFjYjgxMTQ2NWY0MGZmNDYiLCJpYXQiOjE3NDE1NzY3NzIsImV4cCI6MTc0MTU5NDc3Mn0.2vAucEyxaFiJZxm2L1gh9MLF0DWXW_9ToUaJCgVAbwU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"products\": [\r\n    {\r\n      \"productId\": \"67ce6190f5bedd4266f9b871\",\r\n      \"quantity\": 5\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/invoice/67ce6e9f900ebd5b7f37e839",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"invoice",
+						"67ce6e9f900ebd5b7f37e839"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

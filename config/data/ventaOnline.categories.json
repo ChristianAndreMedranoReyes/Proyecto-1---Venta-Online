@@ -1,0 +1,65 @@
+[{
+  "_id": {
+    "$oid": "67ce5c4fa9251a373ca4185d"
+  },
+  "name": "Videojuegos actualizado",
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-10T03:28:15.712Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-12T15:53:36.539Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce5c7ea9251a373ca41861"
+  },
+  "name": "Juguetes",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-10T03:29:02.892Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T03:29:02.892Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce5c94a9251a373ca41865"
+  },
+  "name": "Prendas",
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-10T03:29:24.089Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T03:43:10.299Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce5fcef5bedd4266f9b867"
+  },
+  "name": "default",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-10T03:43:10.282Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T03:43:10.282Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d1ab10d467bb9ca45816b4"
+  },
+  "name": "Automovil",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-12T15:41:04.158Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-12T15:51:45.438Z"
+  }
+}]

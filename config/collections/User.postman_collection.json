@@ -1,0 +1,86 @@
+{
+	"info": {
+		"_postman_id": "2618a006-604b-4c77-b7e7-b02cfe45fbf7",
+		"name": "User",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42553440"
+	},
+	"item": [
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2QxYWFhOGQ0NjdiYjljYTQ1ODE2YWQiLCJpYXQiOjE3NDE3OTQwMDMsImV4cCI6MTc0MTgxMjAwM30.HTotcyqYy_uLoB-CH3AXw-BCv-Oz4QAaTZ1VU-0YDr0",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Adrian\",\r\n  \"oldPassword\": \"123456\",\r\n  \"newPassword\": \"nuevaContraseña\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/user/editar/67d1aeadd467bb9ca45816f6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"user",
+						"editar",
+						"67d1aeadd467bb9ca45816f6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2QxYWVhZGQ0NjdiYjljYTQ1ODE2ZjYiLCJpYXQiOjE3NDE3OTUxNzAsImV4cCI6MTc0MTgxMzE3MH0.dCbNl5h_7EiQtmDzfvjSoAWwAYDqopkW-ulXDJMc_2U",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"password\": \"123456\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/user/eliminar/67d1aeadd467bb9ca45816f6",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"user",
+						"eliminar",
+						"67d1aeadd467bb9ca45816f6"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

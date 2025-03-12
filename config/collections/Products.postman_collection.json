@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "57b0fc8d-fc36-470d-b156-225c3a374c0b",
+		"name": "Products",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "42553440"
+	},
+	"item": [
+		{
+			"name": "post",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2NlNDI0OTFjYjgxMTQ2NWY0MGZmNDYiLCJpYXQiOjE3NDE3OTQwNDYsImV4cCI6MTc0MTgxMjA0Nn0.FNi2ThwtwJ2dAm31Ys5NniqQlGDRt8yUTf07D7J84QU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Mazda\",\r\n  \"description\": \"carro ultimo modelo\",\r\n  \"brand\": \"Mazda\",\r\n  \"price\": 100,\r\n  \"stock\": 5,\r\n  \"categoryName\": \"Carros\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "list",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/product",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/product/search/Starwars set",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"product",
+						"search",
+						"Starwars set"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCategory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/product/category/Juguetes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"product",
+						"category",
+						"Juguetes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2NlNDI0OTFjYjgxMTQ2NWY0MGZmNDYiLCJpYXQiOjE3NDE3OTQwNDYsImV4cCI6MTc0MTgxMjA0Nn0.FNi2ThwtwJ2dAm31Ys5NniqQlGDRt8yUTf07D7J84QU",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"description\": \"Carro modelo 2025\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/product/67d1ab6dd467bb9ca45816b8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"product",
+						"67d1ab6dd467bb9ca45816b8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2NlNDI0OTFjYjgxMTQ2NWY0MGZmNDYiLCJpYXQiOjE3NDE3OTQwNDYsImV4cCI6MTc0MTgxMjA0Nn0.FNi2ThwtwJ2dAm31Ys5NniqQlGDRt8yUTf07D7J84QU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/product/67d1ab6dd467bb9ca45816b8",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"product",
+						"67d1ab6dd467bb9ca45816b8"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "bestSell",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/product/best-sellers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"product",
+						"best-sellers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "stockOut",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "x-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2N2NlNDI0OTFjYjgxMTQ2NWY0MGZmNDYiLCJpYXQiOjE3NDE1NzY3NzIsImV4cCI6MTc0MTU5NDc3Mn0.2vAucEyxaFiJZxm2L1gh9MLF0DWXW_9ToUaJCgVAbwU",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:3000/ventaOnline/v1/product/stock-out",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"ventaOnline",
+						"v1",
+						"product",
+						"stock-out"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

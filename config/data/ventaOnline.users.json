@@ -1,0 +1,153 @@
+[{
+  "_id": {
+    "$oid": "67ce42491cb811465f40ff46"
+  },
+  "name": "Admin",
+  "username": "admin",
+  "email": "admin@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$OZ+MoztFKVa2S9DLCXj67Q$R37glZa3uXziY/AfTqCEeVEa/CGzZ3Y29gHx0cC4Ns0",
+  "role": "ADMIN_ROLE",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-10T01:37:13.887Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T01:37:13.887Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce43941cb811465f40ff4a"
+  },
+  "name": "Christian Medrano",
+  "username": "Chr1sMed",
+  "email": "cmedrano@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$BVneXKy9GO3TD6tjqMjroA$KTDw6lpJWSoHOQrxkv3OSWjwEYNJNii325OSJr8hOyA",
+  "role": "CLIENT_ROLE",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-10T01:42:44.853Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T01:42:44.853Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce457a1cb811465f40ff4e"
+  },
+  "name": "Maradona",
+  "username": "Messi",
+  "email": "lmessi@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$ONcaQ1kHHl5UZVBZM4I/KA$JHQ2Ztcnoeropjfmki+eQBcK8h8dZmKIVKveVfMb6TQ",
+  "role": "CLIENT_ROLE",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-10T01:50:50.301Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T02:20:29.822Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce4cd936db2c4d74229030"
+  },
+  "name": "kaka",
+  "username": "kaka",
+  "email": "kaka@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$EfdeE4xVoO3s/cFcBvjKww$hLz/2hiQjBIkvWT2R/39bZOBw1GSilXL0u3v+ZcezEc",
+  "role": "CLIENT_ROLE",
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-10T02:22:17.518Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T02:29:51.870Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67ce6b2b900ebd5b7f37e7fc"
+  },
+  "name": "Neymar",
+  "username": "nayjr",
+  "email": "neymar@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$RfQlWmhBR2DFZ2i/YE+6Cw$9ALfivzLAxvaOCOcb375vPK2GEkaj1Xfm32oFJ+HPNw",
+  "role": "CLIENT_ROLE",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-10T04:31:39.459Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-10T04:31:39.459Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d19b5c24ad1168b10a85e2"
+  },
+  "name": "updateCarlos2",
+  "username": "carlos",
+  "email": "carlos@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$k3v5ChN1OKKoGQMTnKtd8A$1MOsab4ki4PXTnSktU9s+LE/msR3wuwo3WSA6uJ1hOk",
+  "role": "CLIENT_ROLE",
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-12T14:34:04.857Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-12T14:38:55.953Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d1aaa8d467bb9ca45816ad"
+  },
+  "name": "Adrian",
+  "username": "adrian",
+  "email": "adrian@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$xLaNCWJbsXzWv9uVrAj0xw$Wrs6EeBDhH7TIM/F6c0zuLbIgV0zK5L/001ZSUwwMH0",
+  "role": "CLIENT_ROLE",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-12T15:39:20.685Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-12T15:55:19.428Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d1aeadd467bb9ca45816f6"
+  },
+  "name": "Medrano",
+  "username": "medrano",
+  "email": "medrano@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$HMs8f7NBxfeD6Hb4hyNCCQ$Nfz8v27QnA05+8yUx2Y5fBSbtPObkr8wYKLT448n8mY",
+  "role": "CLIENT_ROLE",
+  "status": false,
+  "createdAt": {
+    "$date": "2025-03-12T15:56:29.066Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-12T15:59:41.168Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "67d1afbfd467bb9ca458170c"
+  },
+  "name": "Andre",
+  "username": "andre",
+  "email": "andre@gmail.com",
+  "password": "$argon2id$v=19$m=65536,t=3,p=4$IHJvJ6v3SvFwfG+/X5dNBQ$7E2D85zDjxO5RZfNkLz26dVAyCCHjePppbr1cC7zrKM",
+  "role": "CLIENT_ROLE",
+  "status": true,
+  "createdAt": {
+    "$date": "2025-03-12T16:01:03.043Z"
+  },
+  "updatedAt": {
+    "$date": "2025-03-12T16:01:03.043Z"
+  }
+}]
